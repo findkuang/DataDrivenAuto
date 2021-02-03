@@ -1,0 +1,24 @@
+2020-12-07 11:12:13,754 数据库查询 ERROR (1045, "Access denied for user 'seenew'@'192.168.1.238' (using password: YES)")
+2020-12-07 11:12:13,758 结果比对失败： ERROR list 长度不相等
+2020-12-07 11:12:15,457 数据库查询 ERROR (1045, "Access denied for user 'seenew'@'192.168.1.238' (using password: YES)")
+2020-12-07 11:12:15,457 结果比对失败： ERROR list 长度不相等
+2020-12-07 11:12:17,228 数据库查询 ERROR (1045, "Access denied for user 'seenew'@'192.168.1.238' (using password: YES)")
+2020-12-07 11:12:17,229 结果比对失败： ERROR list 长度不相等
+2020-12-07 11:12:18,814 数据库查询 ERROR (1045, "Access denied for user 'seenew'@'192.168.1.238' (using password: YES)")
+2020-12-07 11:12:18,815 结果比对失败： ERROR list 长度不相等
+2020-12-07 12:38:15,472 接口测试 ERROR 返回结果错误！状态码不为2000
+2020-12-07 12:38:15,473 接口测试 ERROR 系统异常，请联系管理员。
+2020-12-07 12:44:04,776 接口测试 ERROR 返回结果错误！状态码不为2000
+2020-12-07 12:44:04,776 接口测试 ERROR 系统异常，请联系管理员。
+2020-12-07 12:51:48,630 接口测试 ERROR 返回结果错误！状态码不为2000
+2020-12-07 12:51:48,631 接口测试 ERROR 系统异常，请联系管理员。
+2020-12-07 13:39:32,211 接口测试 ERROR 返回结果错误！状态码不为2000
+2020-12-07 13:39:32,211 接口测试 ERROR 系统异常，请联系管理员。
+2020-12-07 13:40:54,793 接口测试 ERROR 返回结果错误！状态码不为2000
+2020-12-07 13:40:54,794 接口测试 ERROR 系统异常，请联系管理员。
+2020-12-07 17:45:55,831 数据库查询 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM public_health_db.ph_chronic_dise_info \nwhere \nresidenter_id = 'ff2e64df3870' at line 3")
+2020-12-07 17:45:55,832 数据库查询结果： ERROR 数据库查询结果为空
+2020-12-07 17:45:55,833 【结果比对失败】 ERROR json1 或者 json2数据为空
+2020-12-07 17:46:47,735 结果比对失败： ERROR 键值对chronic_diseType  0 != 0
+2020-12-07 18:56:30,484 接口数据传递 ERROR $.prVillageDoorNum
+2020-12-07 18:56:30,485 接口数据传递 ERROR 'bool' object is not subscriptable

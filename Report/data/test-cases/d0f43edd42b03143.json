@@ -1,0 +1,77 @@
+{
+  "uid" : "d0f43edd42b03143",
+  "name" : "个人档案查询123",
+  "fullName" : "Cases.danganguanli.Test_gerendangan#test_gerendanganchaxun123",
+  "historyId" : "206c29cef902359ef2ea904ec1c01a4f",
+  "time" : {
+    "start" : 1602031321082,
+    "stop" : 1602031322063,
+    "duration" : 981
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}",
+  "statusTrace" : "data_a = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\ndata_b = {'ageText': '20岁', 'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男'}\n\n    def compare_data_sub(data_a, data_b):\n        '''\n        数据比对\n        :param data_a: 数据a\n        :param data_b: 数据b\n        :return:\n        '''\n        if isinstance(data_a, dict):\n            for key in data_a.keys():\n                if isinstance(data_a[key], list) or isinstance(data_a[key], dict):\n                    compare_data_sub(data_a[key], data_b[key])\n                else:\n                    try:\n                        assert data_a[key] == data_b[key]\n                    except Exception as e:\n                        inf = \"键值对%s  %s != %s\" % (key, data_a[key], data_b[key])\n                        logger('结果比对失败：').error(inf)\n                        raise AssertionError(inf)\n    \n        elif isinstance(data_a, list):\n            if len(data_a) != len(data_b):\n                inf  = \"data_1 长度是%s != data2 长度%s\" % (len(data_a), len(data_b))\n                logger('结果比对失败：').error(\"list 长度不相等\")\n            else:\n                for data_a_value, data_b_value in zip(data_a, data_b):\n                    if isinstance(data_a_value, list) or isinstance(data_a_value, dict):\n                        compare_data_sub(data_a_value, data_b_value)\n                    else:\n                        try:\n                            assert data_a_value == data_b_value\n                        except Exception as e:\n                            inf = \"列表%s中 %s != %s\" % (data_a, data_a_value, data_b_value)\n                            logger('结果比对失败：').error(inf)\n                            raise AssertionError(inf)\n        else:\n            try:\n>               assert data_a == data_b\nE               AssertionError\n\nUtils\\CompareData.py:55: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\n    @allure.feature('档案管理')\n    @allure.story('个人档案')\n    @allure.title('个人档案查询123')\n    def test_gerendanganchaxun123():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = ''\n        expected_rst = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\n>       submit_data_and_verify(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, expected_rst, sql_path, yml_path, query=conditions)\n\nCases\\danganguanli\\Test_gerendangan.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SubmitMiddle.py:48: in submit_data_and_verify\n    compare_data(expected_rst, fm_db_rst)\nUtils\\CompareData.py:16: in compare_data\n    compare_data_sub(json1, json2)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndata_a = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\ndata_b = {'ageText': '20岁', 'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男'}\n\n    def compare_data_sub(data_a, data_b):\n        '''\n        数据比对\n        :param data_a: 数据a\n        :param data_b: 数据b\n        :return:\n        '''\n        if isinstance(data_a, dict):\n            for key in data_a.keys():\n                if isinstance(data_a[key], list) or isinstance(data_a[key], dict):\n                    compare_data_sub(data_a[key], data_b[key])\n                else:\n                    try:\n                        assert data_a[key] == data_b[key]\n                    except Exception as e:\n                        inf = \"键值对%s  %s != %s\" % (key, data_a[key], data_b[key])\n                        logger('结果比对失败：').error(inf)\n                        raise AssertionError(inf)\n    \n        elif isinstance(data_a, list):\n            if len(data_a) != len(data_b):\n                inf  = \"data_1 长度是%s != data2 长度%s\" % (len(data_a), len(data_b))\n                logger('结果比对失败：').error(\"list 长度不相等\")\n            else:\n                for data_a_value, data_b_value in zip(data_a, data_b):\n                    if isinstance(data_a_value, list) or isinstance(data_a_value, dict):\n                        compare_data_sub(data_a_value, data_b_value)\n                    else:\n                        try:\n                            assert data_a_value == data_b_value\n                        except Exception as e:\n                            inf = \"列表%s中 %s != %s\" % (data_a, data_a_value, data_b_value)\n                            logger('结果比对失败：').error(inf)\n                            raise AssertionError(inf)\n        else:\n            try:\n                assert data_a == data_b\n            except Exception as e:\n                inf = \" %s != %s\" % (data_a, data_b)\n                logger('结果比对失败：').error(inf)\n>               raise AssertionError(inf)\nE               AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}\n\nUtils\\CompareData.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}",
+    "statusTrace" : "data_a = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\ndata_b = {'ageText': '20岁', 'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男'}\n\n    def compare_data_sub(data_a, data_b):\n        '''\n        数据比对\n        :param data_a: 数据a\n        :param data_b: 数据b\n        :return:\n        '''\n        if isinstance(data_a, dict):\n            for key in data_a.keys():\n                if isinstance(data_a[key], list) or isinstance(data_a[key], dict):\n                    compare_data_sub(data_a[key], data_b[key])\n                else:\n                    try:\n                        assert data_a[key] == data_b[key]\n                    except Exception as e:\n                        inf = \"键值对%s  %s != %s\" % (key, data_a[key], data_b[key])\n                        logger('结果比对失败：').error(inf)\n                        raise AssertionError(inf)\n    \n        elif isinstance(data_a, list):\n            if len(data_a) != len(data_b):\n                inf  = \"data_1 长度是%s != data2 长度%s\" % (len(data_a), len(data_b))\n                logger('结果比对失败：').error(\"list 长度不相等\")\n            else:\n                for data_a_value, data_b_value in zip(data_a, data_b):\n                    if isinstance(data_a_value, list) or isinstance(data_a_value, dict):\n                        compare_data_sub(data_a_value, data_b_value)\n                    else:\n                        try:\n                            assert data_a_value == data_b_value\n                        except Exception as e:\n                            inf = \"列表%s中 %s != %s\" % (data_a, data_a_value, data_b_value)\n                            logger('结果比对失败：').error(inf)\n                            raise AssertionError(inf)\n        else:\n            try:\n>               assert data_a == data_b\nE               AssertionError\n\nUtils\\CompareData.py:55: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\n    @allure.feature('档案管理')\n    @allure.story('个人档案')\n    @allure.title('个人档案查询123')\n    def test_gerendanganchaxun123():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = ''\n        expected_rst = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\n>       submit_data_and_verify(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, expected_rst, sql_path, yml_path, query=conditions)\n\nCases\\danganguanli\\Test_gerendangan.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SubmitMiddle.py:48: in submit_data_and_verify\n    compare_data(expected_rst, fm_db_rst)\nUtils\\CompareData.py:16: in compare_data\n    compare_data_sub(json1, json2)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndata_a = '{\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"}'\ndata_b = {'ageText': '20岁', 'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男'}\n\n    def compare_data_sub(data_a, data_b):\n        '''\n        数据比对\n        :param data_a: 数据a\n        :param data_b: 数据b\n        :return:\n        '''\n        if isinstance(data_a, dict):\n            for key in data_a.keys():\n                if isinstance(data_a[key], list) or isinstance(data_a[key], dict):\n                    compare_data_sub(data_a[key], data_b[key])\n                else:\n                    try:\n                        assert data_a[key] == data_b[key]\n                    except Exception as e:\n                        inf = \"键值对%s  %s != %s\" % (key, data_a[key], data_b[key])\n                        logger('结果比对失败：').error(inf)\n                        raise AssertionError(inf)\n    \n        elif isinstance(data_a, list):\n            if len(data_a) != len(data_b):\n                inf  = \"data_1 长度是%s != data2 长度%s\" % (len(data_a), len(data_b))\n                logger('结果比对失败：').error(\"list 长度不相等\")\n            else:\n                for data_a_value, data_b_value in zip(data_a, data_b):\n                    if isinstance(data_a_value, list) or isinstance(data_a_value, dict):\n                        compare_data_sub(data_a_value, data_b_value)\n                    else:\n                        try:\n                            assert data_a_value == data_b_value\n                        except Exception as e:\n                            inf = \"列表%s中 %s != %s\" % (data_a, data_a_value, data_b_value)\n                            logger('结果比对失败：').error(inf)\n                            raise AssertionError(inf)\n        else:\n            try:\n                assert data_a == data_b\n            except Exception as e:\n                inf = \" %s != %s\" % (data_a, data_b)\n                logger('结果比对失败：').error(inf)\n>               raise AssertionError(inf)\nE               AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}\n\nUtils\\CompareData.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23e8934ca1af2387",
+      "name" : "log",
+      "source" : "23e8934ca1af2387.txt",
+      "type" : "text/plain",
+      "size" : 526
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "个人档案"
+  }, {
+    "name" : "feature",
+    "value" : "档案管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.danganguanli"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendangan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "16564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.danganguanli.Test_gerendangan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0f43edd42b03143.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid" : "e00eecfc594a5b24",
+  "name" : "查询个人档案后进行签约",
+  "fullName" : "Cases.gerendangan.Test_danganqianyue#test_chaxungerendanganhoujinxingqianyue",
+  "historyId" : "445df38439b3f2eec7bc735d4a164291",
+  "time" : {
+    "start" : 1601997571324,
+    "stop" : 1601997572903,
+    "duration" : 1579
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:91: in scene_middle_verify\n    db_rst = query_db(sql_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql'\nparams = {'query': {'residenter_id': '51122119991122012X'}}\nf = <_io.TextIOWrapper name='D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql' mode='r' encoding='utf-8'>\nsql = \"select is_sician \\nfrom public_health_db.user_base_info \\nwhere residenter_id = '51122119991122012X'\"\n\n    def query_db(sql_file, **params):\n        with open(sql_file, encoding='utf-8') as f:\n            # 获取第一条SQL\n            sql = f.read().split(';')[0]\n        sql = sql.format(**params['query'])\n        # 获取数据库db信息\n>       db_name = re.findall('.(.+?)\\.', sql.split('FROM')[1])[0]\nE       IndexError: list index out of range\n\nDB\\DbAPI.py:17: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:91: in scene_middle_verify\n    db_rst = query_db(sql_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql'\nparams = {'query': {'residenter_id': '51122119991122012X'}}\nf = <_io.TextIOWrapper name='D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql' mode='r' encoding='utf-8'>\nsql = \"select is_sician \\nfrom public_health_db.user_base_info \\nwhere residenter_id = '51122119991122012X'\"\n\n    def query_db(sql_file, **params):\n        with open(sql_file, encoding='utf-8') as f:\n            # 获取第一条SQL\n            sql = f.read().split(';')[0]\n        sql = sql.format(**params['query'])\n        # 获取数据库db信息\n>       db_name = re.findall('.(.+?)\\.', sql.split('FROM')[1])[0]\nE       IndexError: list index out of range\n\nDB\\DbAPI.py:17: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b5332c02eb67d1db",
+      "name" : "log",
+      "source" : "b5332c02eb67d1db.txt",
+      "type" : "text/plain",
+      "size" : 4983
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "档案签约"
+  }, {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_danganqianyue"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "15884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_danganqianyue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ee960976f565e38",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1601997366140,
+        "stop" : 1601997367721,
+        "duration" : 1581
+      }
+    }, {
+      "uid" : "405c16a99dafa5ca",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+      "time" : {
+        "start" : 1601990731347,
+        "stop" : 1601990732216,
+        "duration" : 869
+      }
+    }, {
+      "uid" : "8fb56eaf4c8a25ad",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+      "time" : {
+        "start" : 1601990690113,
+        "stop" : 1601990691280,
+        "duration" : 1167
+      }
+    }, {
+      "uid" : "64a8ed4896d1ca33",
+      "status" : "broken",
+      "statusDetails" : "KeyError: '查询个人档案后进行签约'",
+      "time" : {
+        "start" : 1601823754763,
+        "stop" : 1601823754763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8bdd616a29c8084",
+      "status" : "broken",
+      "statusDetails" : "KeyError: '查询个人档案后进行签约'",
+      "time" : {
+        "start" : 1601823505256,
+        "stop" : 1601823505256,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eec13f7a8b2e1e9",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+      "time" : {
+        "start" : 1601821908805,
+        "stop" : 1601821909727,
+        "duration" : 922
+      }
+    }, {
+      "uid" : "e48fcc16a25b8a58",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1601821860749,
+        "stop" : 1601821861273,
+        "duration" : 524
+      }
+    }, {
+      "uid" : "3864c7481b4af34c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1601821834728,
+        "stop" : 1601821835138,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "ad3a450f1eaf8f1e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1601821254224,
+        "stop" : 1601821254788,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "37ceb4a98e15f454",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+      "time" : {
+        "start" : 1601819876981,
+        "stop" : 1601819878200,
+        "duration" : 1219
+      }
+    }, {
+      "uid" : "679797fc1cdebd2b",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'",
+      "time" : {
+        "start" : 1601819597594,
+        "stop" : 1601819598000,
+        "duration" : 406
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e00eecfc594a5b24.json",
+  "parameterValues" : [ ]
+}

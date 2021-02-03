@@ -1,0 +1,12 @@
+mysql-dev:
+  host: rm-bp1qg2zx7l454lq46xo.mysql.rds.aliyuncs.com
+  port: 3306
+  user: xnyl
+  password: test123456
+
+
+mysql-test:
+  host: rm-bp1wt2h3247591c7y.mysql.rds.aliyuncs.com
+  port: 3306
+  user: root
+  password: v7#ROHq7JmKD

@@ -1,0 +1,232 @@
+{
+  "uid" : "f046532ceddf27b0",
+  "name" : "个人档案查询123",
+  "fullName" : "Cases.danganguanli.Test_gerendangan#test_gerendanganchaxun123",
+  "historyId" : "206c29cef902359ef2ea904ec1c01a4f",
+  "time" : {
+    "start" : 1602056795766,
+    "stop" : 1602056796848,
+    "duration" : 1082
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2dd1937649461bf3",
+      "name" : "log",
+      "source" : "2dd1937649461bf3.txt",
+      "type" : "text/plain",
+      "size" : 1144
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "档案管理"
+  }, {
+    "name" : "story",
+    "value" : "个人档案"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.danganguanli"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendangan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "14104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.danganguanli.Test_gerendangan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a075170ef94955cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602037416507,
+        "stop" : 1602037417562,
+        "duration" : 1055
+      }
+    }, {
+      "uid" : "e6ad024adc07d6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602037399999,
+        "stop" : 1602037401125,
+        "duration" : 1126
+      }
+    }, {
+      "uid" : "336cec3c46cc2e8e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 键值对genderName  女 != 男",
+      "time" : {
+        "start" : 1602034637413,
+        "stop" : 1602034638422,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "258f68414b5729c7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}",
+      "time" : {
+        "start" : 1602032079285,
+        "stop" : 1602032080221,
+        "duration" : 936
+      }
+    }, {
+      "uid" : "d0f43edd42b03143",
+      "status" : "failed",
+      "statusDetails" : "AssertionError:  {\"docOrgName\": \"浙江大学医学院附属第一医院\", \"genderName\": \"女\", \"ageText\": \"20岁\"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}",
+      "time" : {
+        "start" : 1602031321082,
+        "stop" : 1602031322063,
+        "duration" : 981
+      }
+    }, {
+      "uid" : "91510ac2389f6f06",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'expect_rst' is not defined",
+      "time" : {
+        "start" : 1602031189284,
+        "stop" : 1602031189285,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d074ca305631c1c0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 1 required positional argument: 'yml_path'",
+      "time" : {
+        "start" : 1602031115500,
+        "stop" : 1602031115500,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74784dca64089ca2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 1 required positional argument: 'yml_path'",
+      "time" : {
+        "start" : 1602030896590,
+        "stop" : 1602030896590,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9c01bdc8c90bafa",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 1 required positional argument: 'yml_path'",
+      "time" : {
+        "start" : 1602030879792,
+        "stop" : 1602030879792,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "40916820331a39f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+      "time" : {
+        "start" : 1602030479997,
+        "stop" : 1602030479998,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "36e23f81819a887d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+      "time" : {
+        "start" : 1601998283349,
+        "stop" : 1601998283349,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13b58bc6c68423b8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+      "time" : {
+        "start" : 1601998200539,
+        "stop" : 1601998200539,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74a9929b3bfa0ce5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+      "time" : {
+        "start" : 1601998170652,
+        "stop" : 1601998170652,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d1697439db4cf43",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+      "time" : {
+        "start" : 1601997904227,
+        "stop" : 1601997904801,
+        "duration" : 574
+      }
+    }, {
+      "uid" : "83c869ccbba0b44a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601997569223,
+        "stop" : 1601997570409,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "6b33e8800618186c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601997364365,
+        "stop" : 1601997365274,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "d33379a39a287607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601990688014,
+        "stop" : 1601990689091,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "d5ce74abe3c11e04",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'",
+      "time" : {
+        "start" : 1601819218304,
+        "stop" : 1601819218929,
+        "duration" : 625
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f046532ceddf27b0.json",
+  "parameterValues" : [ ]
+}

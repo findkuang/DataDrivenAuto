@@ -1,0 +1,107 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Cases",
+    "children" : [ {
+      "name" : "gerendangan",
+      "children" : [ {
+        "name" : "Test_danganqianyue",
+        "children" : [ {
+          "name" : "查询个人档案后进行签约",
+          "uid" : "e00eecfc594a5b24",
+          "parentUid" : "7afd4241ae5dd9ef2a8874c809845941",
+          "status" : "broken",
+          "time" : {
+            "start" : 1601997571324,
+            "stop" : 1601997572903,
+            "duration" : 1579
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7afd4241ae5dd9ef2a8874c809845941"
+      }, {
+        "name" : "Test_gerendanganxinxi",
+        "children" : [ {
+          "name" : "查询个人档案信息",
+          "uid" : "56728e1339058ba0",
+          "parentUid" : "7d17c535bb87186776e320687726eaba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1601997572915,
+            "stop" : 1601997573996,
+            "duration" : 1081
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d17c535bb87186776e320687726eaba"
+      } ],
+      "uid" : "ec8fe22529b6774d5c8147df1ed5a508"
+    }, {
+      "name" : "danganguanli.Test_gerendangan",
+      "children" : [ {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "17d3bf3429ef5528",
+        "parentUid" : "d6653e4b6794692464ba18e54b0cae96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997775733,
+          "stop" : 1601997775734,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "e1abbf5a4a68556e",
+        "parentUid" : "d6653e4b6794692464ba18e54b0cae96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997775795,
+          "stop" : 1601997776628,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案查询123",
+        "uid" : "f046532ceddf27b0",
+        "parentUid" : "d6653e4b6794692464ba18e54b0cae96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602056795766,
+          "stop" : 1602056796848,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "danganguanli.Test_gerendangan"
+    }, {
+      "name" : "zhikongshezhi.Test_zhikongguizeshezhi",
+      "children" : [ {
+        "name" : "质控规则查询",
+        "uid" : "3d0767c0de83253",
+        "parentUid" : "fa86aed4e157df8c44a55ec962f01084",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997776631,
+          "stop" : 1601997777442,
+          "duration" : 811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "zhikongshezhi.Test_zhikongguizeshezhi"
+    } ],
+    "uid" : "fb31de1a1a8de63301e5e72bd665cd66"
+  } ]
+}

@@ -1,0 +1,4 @@
+DEBUG    登录：:Login.py:26 登录成功
+ERROR    接口测试:Requests.py:33 返回结果错误！状态码不为2000
+DEBUG    接口返回结果格式化结果::QueryMiddle.py:43 {}
+DEBUG    数据库查询结果后根据YML格式化::QueryMiddle.py:46 {'body': {'data': [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}]}}

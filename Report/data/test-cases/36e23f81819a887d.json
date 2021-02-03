@@ -1,0 +1,59 @@
+{
+  "uid" : "36e23f81819a887d",
+  "name" : "个人档案查询123",
+  "fullName" : "Cases.danganguanli.Test_gerendangan#test_gerendanganchaxun123",
+  "historyId" : "206c29cef902359ef2ea904ec1c01a4f",
+  "time" : {
+    "start" : 1601998283349,
+    "stop" : 1601998283349,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+  "statusTrace" : "@allure.feature('档案管理')\n    @allure.story('个人档案')\n    @allure.title('个人档案查询123')\n    def test_gerendanganchaxun123():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = ''\n>       submit_data_and_verify(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, sql_path, yml_path, query=conditions)\nE       TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'\n\nCases\\danganguanli\\Test_gerendangan.py:19: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "档案管理"
+  }, {
+    "name" : "story",
+    "value" : "个人档案"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.danganguanli"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendangan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "4388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.danganguanli.Test_gerendangan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36e23f81819a887d.json",
+  "parameterValues" : [ ]
+}

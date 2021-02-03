@@ -1,0 +1,59 @@
+{
+  "uid" : "4af4103bc151caab",
+  "name" : "查询个人档案信息",
+  "fullName" : "Cases.gerendangan.Test_gerendanganxinxi#test_chaxungerendanganxinxi",
+  "historyId" : "ddcb3ee375cba3b63a8bf76840779f3d",
+  "time" : {
+    "start" : 1601821835364,
+    "stop" : 1601821835795,
+    "duration" : 431
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: not all arguments converted during string formatting",
+  "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('个人档案信息')\n    @allure.title('查询个人档案信息')\n    def test_chaxungerendanganxinxi():\n        scene_data = scene_all['查询个人档案信息']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_gerendanganxinxi.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:62: in scene_middle_verify\n    logger().debug('请求报文是：', body)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1294: in debug\n    self._log(DEBUG, msg, args, **kwargs)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1442: in _log\n    self.handle(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1452: in handle\n    self.callHandlers(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1514: in callHandlers\n    hdlr.handle(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:863: in handle\n    self.emit(record)\nD:\\Program Files\\Python36\\lib\\site-packages\\_pytest\\logging.py:326: in emit\n    super().emit(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:998: in emit\n    self.handleError(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:992: in emit\n    msg = self.format(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:838: in format\n    return fmt.format(record)\nD:\\Program Files\\Python36\\lib\\site-packages\\_pytest\\logging.py:89: in format\n    return super().format(record)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:575: in format\n    record.message = record.getMessage()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <LogRecord: 接口测试, 10, C:\\Users\\Aisonk\\PycharmProjects\\seenew\\Middle\\SceneMiddle.py, 62, \"请求报文是：\">\n\n    def getMessage(self):\n        \"\"\"\n        Return the message for this LogRecord.\n    \n        Return the message for this LogRecord after merging any user-supplied\n        arguments with the message.\n        \"\"\"\n        msg = str(self.msg)\n        if self.args:\n>           msg = msg % self.args\nE           TypeError: not all arguments converted during string formatting\n\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:338: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "story",
+    "value" : "个人档案信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendanganxinxi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "12336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_gerendanganxinxi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4af4103bc151caab.json",
+  "parameterValues" : [ ]
+}

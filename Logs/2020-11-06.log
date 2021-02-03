@@ -1,0 +1,18 @@
+2020-11-06 11:36:17,300 数据库查询 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if(''!='',idcard_number='',1=1)\n\tORDER BY doc_create_date desc' at line 9")
+2020-11-06 11:36:17,302 结果比对失败： ERROR list 长度不相等
+2020-11-06 11:36:18,590 数据库查询 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if('110101199403072191'!='',idcard_number='110101199403072191',1=1)\n\tORDER BY do' at line 9")
+2020-11-06 11:36:18,592 结果比对失败： ERROR list 长度不相等
+2020-11-06 11:39:48,256 数据库查询 ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if(''!='',idcard_number='',1=1)\n\tORDER BY doc_create_date desc' at line 9")
+2020-11-06 12:33:15,795 结果比对失败： ERROR 键值对docState  1 != 
+2020-11-06 12:33:18,189 结果比对失败： ERROR 键值对docState  1 != 
+2020-11-06 12:33:52,830 结果比对失败： ERROR 键值对docState  1 != 
+2020-11-06 12:33:54,077 结果比对失败： ERROR 键值对docState  1 != 
+2020-11-06 12:38:10,559 结果比对失败： ERROR 键值对docState  1 != 1
+2020-11-06 12:38:12,632 结果比对失败： ERROR 键值对docState  1 != 1
+2020-11-06 12:46:34,720 结果比对失败： ERROR 键值对docState  1 != 1
+2020-11-06 12:46:36,100 结果比对失败： ERROR 键值对docState  1 != 1
+2020-11-06 16:29:58,638 结果比对失败： ERROR 键值对name  许笑君 != None
+2020-11-06 16:33:03,267 结果比对失败： ERROR 键值对name  许笑君 != None
+2020-11-06 16:39:37,729 结果比对失败： ERROR 键值对name  许笑君 != None
+2020-11-06 17:22:32,271 结果比对失败： ERROR 键值对name  许笑君 != None
+2020-11-06 17:51:23,781 结果比对失败： ERROR 键值对name  许笑君 != None

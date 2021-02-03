@@ -1,0 +1,6 @@
+ERROR    接口测试:Requests.py:33 返回结果错误！
+DEBUG    接口测试:QueryMiddle.py:43 -----target_json-----
+DEBUG    接口测试:QueryMiddle.py:44 {}
+DEBUG    接口测试:FormatDbRst.py:63 ---class-db---
+DEBUG    接口测试:QueryMiddle.py:47 ----fm_db_rst----
+DEBUG    接口测试:QueryMiddle.py:48 {'body': {'data': [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}]}}

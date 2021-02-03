@@ -1,0 +1,77 @@
+{
+  "uid" : "9ee960976f565e38",
+  "name" : "查询个人档案后进行签约",
+  "fullName" : "Cases.gerendangan.Test_danganqianyue#test_chaxungerendanganhoujinxingqianyue",
+  "historyId" : "445df38439b3f2eec7bc735d4a164291",
+  "time" : {
+    "start" : 1601997366140,
+    "stop" : 1601997367721,
+    "duration" : 1581
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:91: in scene_middle_verify\n    db_rst = query_db(sql_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql'\nparams = {'query': {'residenter_id': '51122119991122012X'}}\nf = <_io.TextIOWrapper name='D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql' mode='r' encoding='utf-8'>\nsql = \"select is_sician \\nfrom public_health_db.user_base_info \\nwhere residenter_id = '51122119991122012X'\"\n\n    def query_db(sql_file, **params):\n        with open(sql_file, encoding='utf-8') as f:\n            # 获取第一条SQL\n            sql = f.read().split(';')[0]\n        sql = sql.format(**params['query'])\n        # 获取数据库db信息\n>       db_name = re.findall('.(.+?)\\.', sql.split('FROM')[1])[0]\nE       IndexError: list index out of range\n\nDB\\DbAPI.py:17: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:91: in scene_middle_verify\n    db_rst = query_db(sql_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql'\nparams = {'query': {'residenter_id': '51122119991122012X'}}\nf = <_io.TextIOWrapper name='D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql' mode='r' encoding='utf-8'>\nsql = \"select is_sician \\nfrom public_health_db.user_base_info \\nwhere residenter_id = '51122119991122012X'\"\n\n    def query_db(sql_file, **params):\n        with open(sql_file, encoding='utf-8') as f:\n            # 获取第一条SQL\n            sql = f.read().split(';')[0]\n        sql = sql.format(**params['query'])\n        # 获取数据库db信息\n>       db_name = re.findall('.(.+?)\\.', sql.split('FROM')[1])[0]\nE       IndexError: list index out of range\n\nDB\\DbAPI.py:17: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74e8667e3b364db9",
+      "name" : "log",
+      "source" : "74e8667e3b364db9.txt",
+      "type" : "text/plain",
+      "size" : 4983
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "档案签约"
+  }, {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_danganqianyue"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "17772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_danganqianyue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ee960976f565e38.json",
+  "parameterValues" : [ ]
+}

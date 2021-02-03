@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "e00eecfc594a5b24",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997571324,
+          "stop" : 1601997572903,
+          "duration" : 1579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "TypeError: submit_data_and_verify() missing 2 required positional arguments: 'sql_file_name' and 'yml_file_name'",
+      "children" : [ {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "17d3bf3429ef5528",
+        "parentUid" : "d5f34a83906745c852c73c91c50bff60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997775733,
+          "stop" : 1601997775734,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5f34a83906745c852c73c91c50bff60"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

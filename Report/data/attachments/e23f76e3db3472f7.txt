@@ -1,0 +1,8 @@
+DEBUG    rst: :Requests.py:30 {'code': 2000, 'message': 'success', 'body': {'access_token': 'c80b84f6-3596-4796-bd87-8d1e4f157291', 'token_type': 'bearer', 'refresh_token': 'b2545a72-705f-4103-b92f-84f11954f9d7', 'expires_in': 86399, 'scope': 'all'}}
+DEBUG    登录：:Login.py:26 登录成功
+DEBUG    rst: :Requests.py:30 {'code': 2000, 'message': 'success', 'body': {'defaultLoc': 99897826364, 'defaultIns': 1}}
+DEBUG    rst: :Requests.py:30 {'code': 4000, 'message': '系统异常，请联系管理员。', 'body': None}
+ERROR    接口测试:Requests.py:34 返回结果错误！状态码不为2000
+ERROR    接口测试:Requests.py:35 系统异常，请联系管理员。
+DEBUG    数据库查询结果：:SubmitMiddle.py:44 [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}]
+ERROR    结果比对失败：:CompareData.py:35 键值对genderName  女 != 男

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "f046532ceddf27b0",
+  "name" : "个人档案查询123",
+  "time" : {
+    "start" : 1602056795766,
+    "stop" : 1602056796848,
+    "duration" : 1082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56728e1339058ba0",
+  "name" : "查询个人档案信息",
+  "time" : {
+    "start" : 1601997572915,
+    "stop" : 1601997573996,
+    "duration" : 1081
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1abbf5a4a68556e",
+  "name" : "个人档案模糊查询",
+  "time" : {
+    "start" : 1601997775795,
+    "stop" : 1601997776628,
+    "duration" : 833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d0767c0de83253",
+  "name" : "质控规则查询",
+  "time" : {
+    "start" : 1601997776631,
+    "stop" : 1601997777442,
+    "duration" : 811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e00eecfc594a5b24",
+  "name" : "查询个人档案后进行签约",
+  "time" : {
+    "start" : 1601997571324,
+    "stop" : 1601997572903,
+    "duration" : 1579
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17d3bf3429ef5528",
+  "name" : "个人档案提交了哈哈666",
+  "time" : {
+    "start" : 1601997775733,
+    "stop" : 1601997775734,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

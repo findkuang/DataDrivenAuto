@@ -1,0 +1,3 @@
+DEBUG    接口测试:SceneMiddle.py:62 {"keyWord":"都是","docState":1,"pageCount":20,"pageNum":1,"mgrYear":"2020","gridId":"","signStatus":"","crowdType":"","isOpen":""}
+DEBUG    接口测试:SceneMiddle.py:77 {'body': {'data': [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '女', 'ageText': '20岁'}]}}
+DEBUG    接口测试:SceneMiddle.py:80 {'body': {'data': [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '女', 'ageText': '20岁'}]}}

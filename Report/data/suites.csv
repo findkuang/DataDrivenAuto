@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 07 15:46:35 CST 2020","Wed Oct 07 15:46:36 CST 2020","1082","Cases.danganguanli","Test_gerendangan","","","","个人档案查询123",""
+"passed","Tue Oct 06 23:19:32 CST 2020","Tue Oct 06 23:19:33 CST 2020","1081","Cases.gerendangan","Test_gerendanganxinxi","","","","查询个人档案信息",""
+"passed","Tue Oct 06 23:22:55 CST 2020","Tue Oct 06 23:22:56 CST 2020","833","Cases.danganguanli","Test_gerendangan","","","","个人档案模糊查询",""
+"passed","Tue Oct 06 23:22:56 CST 2020","Tue Oct 06 23:22:57 CST 2020","811","Cases.zhikongshezhi","Test_zhikongguizeshezhi","","","","质控规则查询",""
+"broken","Tue Oct 06 23:19:31 CST 2020","Tue Oct 06 23:19:32 CST 2020","1579","Cases.gerendangan","Test_danganqianyue","","","","查询个人档案后进行签约",""
+"broken","Tue Oct 06 23:22:55 CST 2020","Tue Oct 06 23:22:55 CST 2020","1","Cases.danganguanli","Test_gerendangan","","","","个人档案提交了哈哈666",""

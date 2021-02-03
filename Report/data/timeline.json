@@ -1,0 +1,1039 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-PMS9NELT",
+    "children" : [ {
+      "name" : "6892-MainThread",
+      "children" : [ {
+        "name" : "质控规则查询",
+        "uid" : "c9ac66b6d09316f2",
+        "parentUid" : "745aee411693584d25bbc94640e5e334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990733096,
+          "stop" : 1601990733854,
+          "duration" : 758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "78016b1171626c47",
+        "parentUid" : "745aee411693584d25bbc94640e5e334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990732235,
+          "stop" : 1601990733091,
+          "duration" : 856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "1fd380d5c9b49375",
+        "parentUid" : "745aee411693584d25bbc94640e5e334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990730542,
+          "stop" : 1601990731334,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "91d41dbac31971a2",
+        "parentUid" : "745aee411693584d25bbc94640e5e334",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601990730482,
+          "stop" : 1601990730482,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "405c16a99dafa5ca",
+        "parentUid" : "745aee411693584d25bbc94640e5e334",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601990731347,
+          "stop" : 1601990732216,
+          "duration" : 869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "745aee411693584d25bbc94640e5e334"
+    }, {
+      "name" : "5320-MainThread",
+      "children" : [ {
+        "name" : "个人档案模糊查询",
+        "uid" : "550796588261e42c",
+        "parentUid" : "572b505e734ac14ebfd9496970ae2a6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601826296092,
+          "stop" : 1601826296981,
+          "duration" : 889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "17918c1ea01aaf37",
+        "parentUid" : "572b505e734ac14ebfd9496970ae2a6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601826296997,
+          "stop" : 1601826297867,
+          "duration" : 870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "2a86954add09c3e",
+        "parentUid" : "572b505e734ac14ebfd9496970ae2a6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601826296030,
+          "stop" : 1601826296030,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "572b505e734ac14ebfd9496970ae2a6f"
+    }, {
+      "name" : "7308-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案信息",
+        "uid" : "503e6e4e0559940d",
+        "parentUid" : "c8157cf8cbedd59540284ed76bea151b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823505268,
+          "stop" : 1601823505268,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "8bd2bd1972943079",
+        "parentUid" : "c8157cf8cbedd59540284ed76bea151b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601823504368,
+          "stop" : 1601823505253,
+          "duration" : 885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "194b7c97ab2b454a",
+        "parentUid" : "c8157cf8cbedd59540284ed76bea151b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601823505280,
+          "stop" : 1601823506098,
+          "duration" : 818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "8bdd616a29c8084",
+        "parentUid" : "c8157cf8cbedd59540284ed76bea151b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823505256,
+          "stop" : 1601823505256,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "cc96fad392331a6c",
+        "parentUid" : "c8157cf8cbedd59540284ed76bea151b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823504304,
+          "stop" : 1601823504304,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8157cf8cbedd59540284ed76bea151b"
+    }, {
+      "name" : "6248-MainThread",
+      "children" : [ {
+        "name" : "个人档案模糊查询",
+        "uid" : "c1a7e50655d5551f",
+        "parentUid" : "724ff3df16e400826be311f6dc767fb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601823753764,
+          "stop" : 1601823754760,
+          "duration" : 996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "1f3829c37221571a",
+        "parentUid" : "724ff3df16e400826be311f6dc767fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823754772,
+          "stop" : 1601823754772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "25b9ea5d99cb471c",
+        "parentUid" : "724ff3df16e400826be311f6dc767fb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601823754778,
+          "stop" : 1601823755697,
+          "duration" : 919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "64a8ed4896d1ca33",
+        "parentUid" : "724ff3df16e400826be311f6dc767fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823754763,
+          "stop" : 1601823754763,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "410d04a227962166",
+        "parentUid" : "724ff3df16e400826be311f6dc767fb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601823753695,
+          "stop" : 1601823753695,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "724ff3df16e400826be311f6dc767fb6"
+    }, {
+      "name" : "11068-MainThread",
+      "children" : [ {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "414addaff714323b",
+        "parentUid" : "564849d4cd70444727087751e4e7f346",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819219213,
+          "stop" : 1601819219213,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案查询123",
+        "uid" : "d5ce74abe3c11e04",
+        "parentUid" : "564849d4cd70444727087751e4e7f346",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819218304,
+          "stop" : 1601819218929,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "5c73e0176a9150fa",
+        "parentUid" : "564849d4cd70444727087751e4e7f346",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819220014,
+          "stop" : 1601819220567,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "93146a68bc886975",
+        "parentUid" : "564849d4cd70444727087751e4e7f346",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819219270,
+          "stop" : 1601819219854,
+          "duration" : 584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "564849d4cd70444727087751e4e7f346"
+    }, {
+      "name" : "10260-MainThread",
+      "children" : [ {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "878a62f4c30ba72c",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601990689095,
+          "stop" : 1601990689095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "8fb56eaf4c8a25ad",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601990690113,
+          "stop" : 1601990691280,
+          "duration" : 1167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "647b59d4a26e133e",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990691307,
+          "stop" : 1601990692185,
+          "duration" : 878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "5493927c08b6559",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990689158,
+          "stop" : 1601990690110,
+          "duration" : 952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案查询123",
+        "uid" : "d33379a39a287607",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990688014,
+          "stop" : 1601990689091,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "ccf4bbd0889df270",
+        "parentUid" : "c4b481574095b14f5a9943ba6e8e0df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990692189,
+          "stop" : 1601990692967,
+          "duration" : 778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4b481574095b14f5a9943ba6e8e0df0"
+    }, {
+      "name" : "14988-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "13b58bc6c68423b8",
+        "parentUid" : "355abeaa075cd6965af1ef1bb8d61466",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601998200539,
+          "stop" : 1601998200539,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "355abeaa075cd6965af1ef1bb8d61466"
+    }, {
+      "name" : "17772-MainThread",
+      "children" : [ {
+        "name" : "质控规则查询",
+        "uid" : "80e5765f3ffeb58b",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997368797,
+          "stop" : 1601997369560,
+          "duration" : 763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案查询123",
+        "uid" : "6b33e8800618186c",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997364365,
+          "stop" : 1601997365274,
+          "duration" : 909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "9ee960976f565e38",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997366140,
+          "stop" : 1601997367721,
+          "duration" : 1581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "fe329c9008a8ec78",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997365278,
+          "stop" : 1601997365278,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "15fd4607d0eaa31b",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997367734,
+          "stop" : 1601997368794,
+          "duration" : 1060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "1af00419fc9b35",
+        "parentUid" : "9484b390b384decd4c917859984535a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997365345,
+          "stop" : 1601997366137,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9484b390b384decd4c917859984535a4"
+    }, {
+      "name" : "16564-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "d0f43edd42b03143",
+        "parentUid" : "9a03922220bb302b020ed1797eb64c09",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602031321082,
+          "stop" : 1602031322063,
+          "duration" : 981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a03922220bb302b020ed1797eb64c09"
+    }, {
+      "name" : "4128-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "a075170ef94955cb",
+        "parentUid" : "9d398ae3937a6de8896760ceaef9f15a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602037416507,
+          "stop" : 1602037417562,
+          "duration" : 1055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d398ae3937a6de8896760ceaef9f15a"
+    }, {
+      "name" : "15884-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "83c869ccbba0b44a",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997569223,
+          "stop" : 1601997570409,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "56728e1339058ba0",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997572915,
+          "stop" : 1601997573996,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "质控规则查询",
+        "uid" : "8936dc71d968a4d5",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997573999,
+          "stop" : 1601997574791,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "e00eecfc594a5b24",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997571324,
+          "stop" : 1601997572903,
+          "duration" : 1579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "941e5f79b371135c",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997570481,
+          "stop" : 1601997571311,
+          "duration" : 830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "4dda68e67a957f52",
+        "parentUid" : "3395119810423c6401c7bc188deeb4f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997570412,
+          "stop" : 1601997570413,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3395119810423c6401c7bc188deeb4f4"
+    }, {
+      "name" : "17940-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "91510ac2389f6f06",
+        "parentUid" : "3c7e588efc9881e4d6afdad04cd7cfad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602031189284,
+          "stop" : 1602031189285,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c7e588efc9881e4d6afdad04cd7cfad"
+    }, {
+      "name" : "10844-MainThread",
+      "children" : [ {
+        "name" : "质控规则查询",
+        "uid" : "3d0767c0de83253",
+        "parentUid" : "43536ae37c1e80b3b44009623eac23be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997776631,
+          "stop" : 1601997777442,
+          "duration" : 811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "e1abbf5a4a68556e",
+        "parentUid" : "43536ae37c1e80b3b44009623eac23be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997775795,
+          "stop" : 1601997776628,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "17d3bf3429ef5528",
+        "parentUid" : "43536ae37c1e80b3b44009623eac23be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997775733,
+          "stop" : 1601997775734,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43536ae37c1e80b3b44009623eac23be"
+    }, {
+      "name" : "16872-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "74784dca64089ca2",
+        "parentUid" : "b73df01fc72418317e787e802e4d7e78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602030896590,
+          "stop" : 1602030896590,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b73df01fc72418317e787e802e4d7e78"
+    }, {
+      "name" : "4388-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "36e23f81819a887d",
+        "parentUid" : "0efcb6850502c293079dc00f8e5ec672",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601998283349,
+          "stop" : 1601998283349,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0efcb6850502c293079dc00f8e5ec672"
+    }, {
+      "name" : "1436-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "ad3a450f1eaf8f1e",
+        "parentUid" : "aa319d0d9254ad36494486183a9ea633",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821254224,
+          "stop" : 1601821254788,
+          "duration" : 564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "c079a94e1ef391f5",
+        "parentUid" : "aa319d0d9254ad36494486183a9ea633",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821255005,
+          "stop" : 1601821255444,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa319d0d9254ad36494486183a9ea633"
+    }, {
+      "name" : "16756-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "74a9929b3bfa0ce5",
+        "parentUid" : "505bd059968a10bd9cd7450b9a287869",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601998170652,
+          "stop" : 1601998170652,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "505bd059968a10bd9cd7450b9a287869"
+    }, {
+      "name" : "1980-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "258f68414b5729c7",
+        "parentUid" : "a39ae1b1c43bab8c6d5a27b8b2984205",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602032079285,
+          "stop" : 1602032080221,
+          "duration" : 936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a39ae1b1c43bab8c6d5a27b8b2984205"
+    }, {
+      "name" : "17272-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "7d1697439db4cf43",
+        "parentUid" : "1ea95c655e7cf5b99fa4b42d0c6d8141",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997904227,
+          "stop" : 1601997904801,
+          "duration" : 574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ea95c655e7cf5b99fa4b42d0c6d8141"
+    }, {
+      "name" : "9432-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "336cec3c46cc2e8e",
+        "parentUid" : "1ddc0e0a5e0157d50f4f6ace09ba4934",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602034637413,
+          "stop" : 1602034638422,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ddc0e0a5e0157d50f4f6ace09ba4934"
+    }, {
+      "name" : "14104-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "f046532ceddf27b0",
+        "parentUid" : "2bd73361b0bf5aa9e9665560ee28901e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602056795766,
+          "stop" : 1602056796848,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bd73361b0bf5aa9e9665560ee28901e"
+    }, {
+      "name" : "15248-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案信息",
+        "uid" : "e63930b8ce621af7",
+        "parentUid" : "19720f396efa9977ef1305cec7b54276",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819598325,
+          "stop" : 1601819598742,
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "679797fc1cdebd2b",
+        "parentUid" : "19720f396efa9977ef1305cec7b54276",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819597594,
+          "stop" : 1601819598000,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19720f396efa9977ef1305cec7b54276"
+    }, {
+      "name" : "6304-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "e48fcc16a25b8a58",
+        "parentUid" : "fe013392ab01fd54359786452657fad5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821860749,
+          "stop" : 1601821861273,
+          "duration" : 524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "12df74787bd4e411",
+        "parentUid" : "fe013392ab01fd54359786452657fad5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821861482,
+          "stop" : 1601821861890,
+          "duration" : 408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe013392ab01fd54359786452657fad5"
+    }, {
+      "name" : "7764-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "e6ad024adc07d6e4",
+        "parentUid" : "3db5d4bedb17e3bd21387be0118b323d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602037399999,
+          "stop" : 1602037401125,
+          "duration" : 1126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3db5d4bedb17e3bd21387be0118b323d"
+    }, {
+      "name" : "3052-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "eec13f7a8b2e1e9",
+        "parentUid" : "1b5ba861ee6175dba6d4a02654f21991",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821908805,
+          "stop" : 1601821909727,
+          "duration" : 922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "ba001dbe7ed3e94a",
+        "parentUid" : "1b5ba861ee6175dba6d4a02654f21991",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601821909810,
+          "stop" : 1601821910712,
+          "duration" : 902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b5ba861ee6175dba6d4a02654f21991"
+    }, {
+      "name" : "12336-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案信息",
+        "uid" : "4af4103bc151caab",
+        "parentUid" : "c114c512838a6be35b7fb0e894f01f38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821835364,
+          "stop" : 1601821835795,
+          "duration" : 431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "3864c7481b4af34c",
+        "parentUid" : "c114c512838a6be35b7fb0e894f01f38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601821834728,
+          "stop" : 1601821835138,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c114c512838a6be35b7fb0e894f01f38"
+    }, {
+      "name" : "4384-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "c9c01bdc8c90bafa",
+        "parentUid" : "cacc3d0d271f691f1427edecb2d477b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602030879792,
+          "stop" : 1602030879792,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cacc3d0d271f691f1427edecb2d477b2"
+    }, {
+      "name" : "17980-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "d074ca305631c1c0",
+        "parentUid" : "6413a095387f6038109dc72d850caf82",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602031115500,
+          "stop" : 1602031115500,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6413a095387f6038109dc72d850caf82"
+    }, {
+      "name" : "16424-MainThread",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "37ceb4a98e15f454",
+        "parentUid" : "39ce569f8a02209612b9cf78776cc641",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601819876981,
+          "stop" : 1601819878200,
+          "duration" : 1219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询个人档案信息",
+        "uid" : "37864759d91b4a9",
+        "parentUid" : "39ce569f8a02209612b9cf78776cc641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601819878542,
+          "stop" : 1601819879643,
+          "duration" : 1101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39ce569f8a02209612b9cf78776cc641"
+    }, {
+      "name" : "10796-MainThread",
+      "children" : [ {
+        "name" : "个人档案查询123",
+        "uid" : "40916820331a39f",
+        "parentUid" : "6dc268bd154ac08b58b626ce50baa018",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602030479997,
+          "stop" : 1602030479998,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6dc268bd154ac08b58b626ce50baa018"
+    } ],
+    "uid" : "fe14e4851a81e9d2b4f9444ec4d1acbe"
+  } ]
+}

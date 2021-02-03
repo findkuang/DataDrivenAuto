@@ -1,0 +1,73 @@
+{
+  "uid" : "ba001dbe7ed3e94a",
+  "name" : "查询个人档案信息",
+  "fullName" : "Cases.gerendangan.Test_gerendanganxinxi#test_chaxungerendanganxinxi",
+  "historyId" : "ddcb3ee375cba3b63a8bf76840779f3d",
+  "time" : {
+    "start" : 1601821909810,
+    "stop" : 1601821910712,
+    "duration" : 902
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30e67e431df3efb8",
+      "name" : "log",
+      "source" : "30e67e431df3efb8.txt",
+      "type" : "text/plain",
+      "size" : 494
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "story",
+    "value" : "个人档案信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendanganxinxi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "3052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_gerendanganxinxi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba001dbe7ed3e94a.json",
+  "parameterValues" : [ ]
+}

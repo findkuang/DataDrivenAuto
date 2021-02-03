@@ -1,0 +1,59 @@
+{
+  "uid" : "5c73e0176a9150fa",
+  "name" : "质控规则查询",
+  "fullName" : "Cases.zhikongshezhi.Test_zhikongguizeshezhi#test_zhikongguizechaxun",
+  "historyId" : "582af51df6abe7e051eb653c63b8036c",
+  "time" : {
+    "start" : 1601819220014,
+    "stop" : 1601819220567,
+    "duration" : 553
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'",
+  "statusTrace" : "@allure.feature('质控设置')\n    @allure.story('质控规则设置')\n    @allure.title('质控规则查询')\n    def test_zhikongguizechaxun():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = 'D:\\AutoTestFiles\\YML\\person.yml'\n>       get_query_compare_rst(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, sql_path, yml_path, query=conditions)\n\nCases\\zhikongshezhi\\Test_zhikongguizeshezhi.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\QueryMiddle.py:40: in get_query_compare_rst\n    rst = req.send_post(url, data=body, headers=headers)\nCommon\\Requests.py:33: in send_post\n    logger().error('返回结果错误！')\nUtils\\LoggerHandler.py:58: in logger\n    file_level=LOG_INFO['LOG_FILE_LEVEL']\nUtils\\LoggerHandler.py:34: in __init__\n    f_file = logging.FileHandler(self.file_name)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1030: in __init__\n    StreamHandler.__init__(self, self._open())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <[AttributeError(\"'FileHandler' object has no attribute 'level'\",) raised in repr()] FileHandler object at 0x1e5e4028a20>\n\n    def _open(self):\n        \"\"\"\n        Open the current base file with the (original) mode and encoding.\n        Return the resulting stream.\n        \"\"\"\n>       return open(self.baseFilename, self.mode, encoding=self.encoding)\nE       FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'\n\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1059: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "质控设置"
+  }, {
+    "name" : "story",
+    "value" : "质控规则设置"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.zhikongshezhi"
+  }, {
+    "name" : "suite",
+    "value" : "Test_zhikongguizeshezhi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "11068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.zhikongshezhi.Test_zhikongguizeshezhi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c73e0176a9150fa.json",
+  "parameterValues" : [ ]
+}

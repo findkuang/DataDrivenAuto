@@ -1,0 +1,59 @@
+{
+  "uid" : "679797fc1cdebd2b",
+  "name" : "查询个人档案后进行签约",
+  "fullName" : "Cases.gerendangan.Test_danganqianyue#test_chaxungerendanganhoujinxingqianyue",
+  "historyId" : "445df38439b3f2eec7bc735d4a164291",
+  "time" : {
+    "start" : 1601819597594,
+    "stop" : 1601819598000,
+    "duration" : 406
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'",
+  "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:62: in scene_middle_verify\n    logger().debug(body)\nUtils\\LoggerHandler.py:58: in logger\n    file_level=LOG_INFO['LOG_FILE_LEVEL']\nUtils\\LoggerHandler.py:34: in __init__\n    f_file = logging.FileHandler(self.file_name)\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1030: in __init__\n    StreamHandler.__init__(self, self._open())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <[AttributeError(\"'FileHandler' object has no attribute 'level'\",) raised in repr()] FileHandler object at 0x21cfdc4c9e8>\n\n    def _open(self):\n        \"\"\"\n        Open the current base file with the (original) mode and encoding.\n        Return the resulting stream.\n        \"\"\"\n>       return open(self.baseFilename, self.mode, encoding=self.encoding)\nE       FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Aisonk\\\\PycharmProjects\\\\Logs\\\\2020-10-04.log'\n\nD:\\Program Files\\Python36\\lib\\logging\\__init__.py:1059: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "story",
+    "value" : "档案签约"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_danganqianyue"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "15248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_danganqianyue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "679797fc1cdebd2b.json",
+  "parameterValues" : [ ]
+}

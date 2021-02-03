@@ -1,0 +1,77 @@
+{
+  "uid" : "7d1697439db4cf43",
+  "name" : "个人档案查询123",
+  "fullName" : "Cases.danganguanli.Test_gerendangan#test_gerendanganchaxun123",
+  "historyId" : "206c29cef902359ef2ea904ec1c01a4f",
+  "time" : {
+    "start" : 1601997904227,
+    "stop" : 1601997904801,
+    "duration" : 574
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+  "statusTrace" : "@allure.feature('档案管理')\n    @allure.story('个人档案')\n    @allure.title('个人档案查询123')\n    def test_gerendanganchaxun123():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = ''\n>       get_query_compare_rst(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, sql_path, yml_path, query=conditions)\n\nCases\\danganguanli\\Test_gerendangan.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\QueryMiddle.py:42: in get_query_compare_rst\n    target_json = format_data(rst, yml_file)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\noriginal_data = None, target_yml = ''\n\n    def format_data(original_data, target_yml):\n        '''\n        根据yml文件格式化json报文\n        :param original_data: 原始报文数据\n        :param target_yml: yml配置文件\n        :return: 格式化后结果\n        '''\n>       with open(target_yml, encoding='utf-8') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: ''\n\nUtils\\FormatMessage.py:18: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+    "statusTrace" : "@allure.feature('档案管理')\n    @allure.story('个人档案')\n    @allure.title('个人档案查询123')\n    def test_gerendanganchaxun123():\n        uri = '/app-publichealth/personal/page/personList'\n        body = {'keyWord': '匡Test', 'docState': 1, 'pageCount': 20, 'pageNum': 1, 'mgrYear': '2020', 'gridId': '', 'signStatus': '', 'crowdType': ''}\n        conditions = {'name': '匡Test'}\n        sql_path = 'D:\\AutoTestFiles\\SQL\\getPerson.sql'\n        yml_path = ''\n>       get_query_compare_rst(USER_INFO['xtest01']['username'], USER_INFO['xtest01']['password'], uri, body, sql_path, yml_path, query=conditions)\n\nCases\\danganguanli\\Test_gerendangan.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\QueryMiddle.py:42: in get_query_compare_rst\n    target_json = format_data(rst, yml_file)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\noriginal_data = None, target_yml = ''\n\n    def format_data(original_data, target_yml):\n        '''\n        根据yml文件格式化json报文\n        :param original_data: 原始报文数据\n        :param target_yml: yml配置文件\n        :return: 格式化后结果\n        '''\n>       with open(target_yml, encoding='utf-8') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: ''\n\nUtils\\FormatMessage.py:18: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5f4d39a5213a527",
+      "name" : "log",
+      "source" : "e5f4d39a5213a527.txt",
+      "type" : "text/plain",
+      "size" : 121
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "个人档案"
+  }, {
+    "name" : "feature",
+    "value" : "档案管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.danganguanli"
+  }, {
+    "name" : "suite",
+    "value" : "Test_gerendangan"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "17272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.danganguanli.Test_gerendangan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d1697439db4cf43.json",
+  "parameterValues" : [ ]
+}

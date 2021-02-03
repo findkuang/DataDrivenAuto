@@ -1,0 +1,4 @@
+DEBUG    登录：:Login.py:26 登录成功
+ERROR    接口测试:Requests.py:33 返回结果错误！状态码不为2000
+DEBUG    数据库查询结果：:SubmitMiddle.py:42 [{'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}]
+ERROR    结果比对失败：:CompareData.py:58  {"docOrgName": "浙江大学医学院附属第一医院", "genderName": "女", "ageText": "20岁"} != {'docOrgName': '浙江大学医学院附属第一医院', 'genderName': '男', 'ageText': '20岁'}

@@ -1,0 +1,25 @@
+2020-10-25 12:51:33,043 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 12:52:36,406 结果比对失败： ERROR list 长度不相等
+2020-10-25 12:52:49,277 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 14:23:35,010 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:24:07,923 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:24:19,569 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 14:35:07,594 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:35:19,628 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 14:37:16,996 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:37:28,328 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 14:38:51,446 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:39:03,046 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 14:43:48,708 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:51:15,348 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:56:44,553 结果比对失败： ERROR list 长度不相等
+2020-10-25 14:57:30,942 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 14:58:20,516 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 14:59:44,662 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 15:00:13,398 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 15:02:01,886 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 15:04:22,642 接口测试 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 15:10:26,307 数据库查询 ERROR (1044, "Access denied for user 'seenew'@'%' to database ' public_health_db'")
+2020-10-25 22:34:06,464 结果比对失败： ERROR list 长度不相等
+2020-10-25 22:39:12,867 结果比对失败： ERROR 键值对fieldDesc  下次目标饮酒量 (两) != 下次目标饮酒量
+2020-10-25 22:52:11,629 结果比对失败： ERROR list 长度不相等

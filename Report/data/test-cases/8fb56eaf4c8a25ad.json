@@ -1,0 +1,77 @@
+{
+  "uid" : "8fb56eaf4c8a25ad",
+  "name" : "查询个人档案后进行签约",
+  "fullName" : "Cases.gerendangan.Test_danganqianyue#test_chaxungerendanganhoujinxingqianyue",
+  "historyId" : "445df38439b3f2eec7bc735d4a164291",
+  "time" : {
+    "start" : 1601990690113,
+    "stop" : 1601990691280,
+    "duration" : 1167
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+  "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:90: in scene_middle_verify\n    fm_db_rst = get_db_format_data(sql_file, yml_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql', yml_file = ''\nparams = {'query': {'residenter_id': '51122119991122012X'}}\n\n    def get_db_format_data(sql_file, yml_file, **params):\n        '''\n        根据yml文件，将数据库查询结果格式化\n        :param sql_file: sql文件\n        :param yml_file: yml文件\n        :return:\n        '''\n>       with open(yml_file, encoding='utf-8') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: ''\n\nUtils\\FormatDbRst.py:23: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: ''",
+    "statusTrace" : "@allure.feature('个人档案')\n    @allure.story('档案签约')\n    @allure.title('查询个人档案后进行签约')\n    def test_chaxungerendanganhoujinxingqianyue():\n        scene_data = scene_all['查询个人档案后进行签约']\n>       scene_middle_verify(USER_INFO['vivi']['username'], USER_INFO['vivi']['password'], scene_data)\n\nCases\\gerendangan\\Test_danganqianyue.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nMiddle\\SceneMiddle.py:90: in scene_middle_verify\n    fm_db_rst = get_db_format_data(sql_file, yml_file, query=condition)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsql_file = 'D:\\\\AutoTestFiles\\\\SQL\\\\查询个人签约状态.sql', yml_file = ''\nparams = {'query': {'residenter_id': '51122119991122012X'}}\n\n    def get_db_format_data(sql_file, yml_file, **params):\n        '''\n        根据yml文件，将数据库查询结果格式化\n        :param sql_file: sql文件\n        :param yml_file: yml文件\n        :return:\n        '''\n>       with open(yml_file, encoding='utf-8') as file:\nE       FileNotFoundError: [Errno 2] No such file or directory: ''\n\nUtils\\FormatDbRst.py:23: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85fbbdbf6b771746",
+      "name" : "log",
+      "source" : "85fbbdbf6b771746.txt",
+      "type" : "text/plain",
+      "size" : 1239
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "个人档案"
+  }, {
+    "name" : "story",
+    "value" : "档案签约"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cases.gerendangan"
+  }, {
+    "name" : "suite",
+    "value" : "Test_danganqianyue"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PMS9NELT"
+  }, {
+    "name" : "thread",
+    "value" : "10260-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Cases.gerendangan.Test_danganqianyue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fb56eaf4c8a25ad.json",
+  "parameterValues" : [ ]
+}

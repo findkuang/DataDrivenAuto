@@ -1,0 +1,111 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "个人档案",
+    "children" : [ {
+      "name" : "档案签约",
+      "children" : [ {
+        "name" : "查询个人档案后进行签约",
+        "uid" : "e00eecfc594a5b24",
+        "parentUid" : "ac8ee3e64a14972fa144b0da3f20d4a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997571324,
+          "stop" : 1601997572903,
+          "duration" : 1579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac8ee3e64a14972fa144b0da3f20d4a8"
+    }, {
+      "name" : "个人档案信息",
+      "children" : [ {
+        "name" : "查询个人档案信息",
+        "uid" : "56728e1339058ba0",
+        "parentUid" : "f074ebec7febaade37499b11245f3037",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997572915,
+          "stop" : 1601997573996,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f074ebec7febaade37499b11245f3037"
+    } ],
+    "uid" : "8e37fbd6c76561b6b3d73684c17dd6bd"
+  }, {
+    "name" : "档案管理",
+    "children" : [ {
+      "name" : "个人档案",
+      "children" : [ {
+        "name" : "个人档案提交了哈哈666",
+        "uid" : "17d3bf3429ef5528",
+        "parentUid" : "de4d68f0ab0d820541299b8ecab6f7da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601997775733,
+          "stop" : 1601997775734,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案模糊查询",
+        "uid" : "e1abbf5a4a68556e",
+        "parentUid" : "de4d68f0ab0d820541299b8ecab6f7da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997775795,
+          "stop" : 1601997776628,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "个人档案查询123",
+        "uid" : "f046532ceddf27b0",
+        "parentUid" : "de4d68f0ab0d820541299b8ecab6f7da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602056795766,
+          "stop" : 1602056796848,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de4d68f0ab0d820541299b8ecab6f7da"
+    } ],
+    "uid" : "0f23ac19ba4b71aa512049842fcc7d3b"
+  }, {
+    "name" : "质控设置",
+    "children" : [ {
+      "name" : "质控规则设置",
+      "children" : [ {
+        "name" : "质控规则查询",
+        "uid" : "3d0767c0de83253",
+        "parentUid" : "33b902e8e9310ef93fd26a326edffdfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601997776631,
+          "stop" : 1601997777442,
+          "duration" : 811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33b902e8e9310ef93fd26a326edffdfc"
+    } ],
+    "uid" : "14182ea322300e66573e9c17c7d0b45a"
+  } ]
+}
