@@ -28,6 +28,8 @@ def submit_data_and_verify(username, pwd, uri, body, expected_rst, sql_path, yml
     '''
     sql_file = sql_path
     yml_file = yml_path
+    # 随机函数格式化body、conditions、expected_rst
+
     # 格式化前置条件传的数据
     setUp_dict = params['setUp']
     body = format_data_by_setup(body, setUp_dict)

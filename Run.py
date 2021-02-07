@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # os.system('pytest .\Cases\danganguanli\Test_gerendangan.py --alluredir C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\自动化测试Job\\allure-results --clean-alluredir')
 
     # # 需要执行文件路径
-    file_path = r'D:\AutoTestFiles\接口\接口_健康档案模块.xlsx'
+    file_path = r'D:\AutoTestFiles\场景\场景_高危人群_高血压高危.xlsx'
     set_file_path_config(file_path)
     pytest.main([])
     os.system('allure serve ./Temp  ./Report')

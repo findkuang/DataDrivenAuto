@@ -33,15 +33,6 @@ def scene_middle_verify(username, pwd, scene_data, setUp=None):
     :param setUp: 前置条件返回的结果数据
     :return:
     '''
-    # 登录
-    # lg = Login(username, pwd)
-    # access_token, req = lg.login()
-    # defaultLoc, defaultIns = lg.get_default_setting(req, access_token)
-    # headers = {"Authorization": 'Bearer '+ access_token,
-    #            "k2": defaultLoc,
-    #            "k1": defaultIns,
-    #            "Content-Type": "application/json; charset=UTF-8"
-    # }
     lg = Login(username, pwd)
     req = lg.req
     headers = {"Authorization": 'Bearer '+ lg.access_token,
@@ -77,7 +68,7 @@ def scene_middle_verify(username, pwd, scene_data, setUp=None):
             # 获取依赖的数据，并格式化body,将依赖的数据写入填充到body里面
             body = format_body_by_rely(interface_data['body'], reponse_rst_dict[interface_data['rely']])
         # 打印body日志
-        logger('请求报文body为：').debug(body)
+        logger('【接口'+str(index+1)+'】请求报文body为：').debug(body)
         if isinstance(body, str):
             body = json.loads(body)
         url = URL_INFO['TEST']['url'] + uri
@@ -85,6 +76,8 @@ def scene_middle_verify(username, pwd, scene_data, setUp=None):
             rst = req.send_post(url, data=body, headers=headers)
         else:
             rst = req.send_get(url, data=body, headers=headers)
+        # 打印接口返回结果日志
+        logger('【接口' + str(index + 1) + '】返回结果为：').debug(rst)
         # 如果SQL执行字段为空，则保存接口返回结果; 否则查询数据库结果保存
         if interface_data['sql'] and index < len(scene_data_new)-1:
             sql_file = interface_data['sql']

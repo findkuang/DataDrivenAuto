@@ -17,6 +17,8 @@ def format_body_by_rely(body, rely_data):
     :param rely_data:
     :return:
     '''
+    if isinstance(body, dict):
+        body = json.dumps(body)
     rely_filed_list = re.findall(r'\"(\$.*?)\"', body)
     for rely_filed in rely_filed_list:
         try:
@@ -30,9 +32,15 @@ def format_body_by_rely(body, rely_data):
 
 
 def format_data_by_setup(data, setup):
+    '''
+    获取前置条件的返回的数据
+    :param data:
+    :param setup:
+    :return:
+    '''
     if isinstance(data, dict):
         data = json.dumps(data)
-    else:
+    elif data == '':
         data = '{}'
     if setup:
         data = data.replace('\\', '')
@@ -45,5 +53,4 @@ def format_data_by_setup(data, setup):
                 logger('接口间数据传递').error(filed)
                 logger('接口间数据传递').error(e)
             data = new_data
-
     return json.loads(data)

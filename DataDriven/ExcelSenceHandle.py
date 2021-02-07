@@ -5,9 +5,8 @@
 # @File    : ExcelSenceHandle.py
 # @Function: 接口用例数据驱动
 import xlrd
+import json
 from Utils.RandomData import RandomData
-
-scene_all = {}
 
 
 def get_excel_scene_data(file_path):
@@ -16,6 +15,7 @@ def get_excel_scene_data(file_path):
     :param file_path:
     :return:
     '''
+    scene_all = {}
     book = xlrd.open_workbook(file_path)
 
     # 拿到表格中对象 按索引获取

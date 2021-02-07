@@ -4,6 +4,7 @@
 # @Author  : kuangxiaojiang
 # @File    : RandomData.py
 # @Function: 随机数生成器
+from Utils.LoggerHandler import logger
 from Utils.MyProvider import MyProvider
 from faker import Faker
 import re
@@ -38,6 +39,7 @@ class RandomData(object):
             self.interface_case_filed_list = re.findall(r',\"(.{1,30}?)":\"faker.', data_md)
         else:
             data_md = data
+            logger('格式化数据').debug(data_md)
             for key, value in json.loads(data_md).items():
                 if 'faker.' in str(value):
                     self.interface_case_filed_list.append(key)

@@ -20,6 +20,7 @@ def format_data(original_data, target_yml):
         target_yml_data = yaml.full_load(file)
     rst_json = {}
     rst_json = get_sub_data_interface(original_data, target_yml_data, rst_json)
+    logger('【接口报文格式化结果为】').debug(rst_json)
     return json.dumps(rst_json, ensure_ascii=False)
 
 

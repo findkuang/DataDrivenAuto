@@ -1,0 +1,104 @@
+DEBUG    前置条件:conftest.py:85 【测试前置条件执行】
+DEBUG    格式化数据:RandomData.py:42 {"liveAddress":{"city":"216449","county":"218534","province":"191019","town":"218535","village":"218536","deep":0,"value":"218536","label":"妙山社区","code":"331023001040","detailAddress":"现住址1"},"residenceAddress":{"city":"216449","county":"218534","province":"191019","town":"218837","village":"218844","deep":0,"value":"218844","label":"下洋潘村委会","code":"331023105206","detailAddress":"户籍地址1"},"mgrOrgCode":"1","docOrgCode":"1","inputOrgCode":"1","inputOrgName":"浙江大学医学院附属第一医院","responsibleDoctorId":"10165","archivingDoctorId":"10165","archivingDate":"faker.date()","inputDoctorId":"10165","inputDoctorName":"VV","inputDate":"faker.date()","nation":"GB/T3304.01","gender":"GB/T2261.1.1","isHouseholderReg":"1","hasOperations":["0"],"hasTraumatisms":["0"],"hasTransfusions":["0"],"allergySource":[{"value":0,"isReserveState":true}],"exposureHistory":[{"value":0,"isReserveState":true}],"diseases":[{"value":"FH0369.01","isReserveState":true,"diagnosisTime":""}],"fatherDiseases":[{"value":"FH0369.01","isReserveState":true}],"motherDiseases":[{"value":"FH0369.01","isReserveState":true}],"childrenDiseases":[{"value":"FH0369.01","isReserveState":true}],"siblingDiseases":[{"value":"FH0369.01","isReserveState":true}],"geneticDiseases":[{"value":0,"isReserveState":true}],"disabilityDiseases":[{"value":"FH0370.01","isReserveState":true}],"lifeEnvKitchenVentList":[{"value":0}],"lifeEnvFuelTypeList":[{"value":0}],"lifeEnvWaterList":[{"value":0}],"lifeEnvWcList":[{"value":0}],"lifeEnvAnimalList":[{"value":0}],"gridId":"3310","educationLevel":"FH0388.02","aboBloodType":"CV04.50.005.01","rhBloodType":"CV04.50.020.02","maritalStatus":"GB/T2261.2.10","careerCate":"FH0386.05","hisPayFeeType":"FH0368.02","recordDetailCategory":"addNew","name":"faker.name()","birthday":"1990-03-07","idcardNumber":"faker.ssn()","phone":"faker.phone_number()","workplace":"工作单位1","contactsName":"faker.name()","contactsPhone":"faker.phone_number()","idcardType":"FH0066.01","qcResult":[]} 
+DEBUG    body:Requests.py:27 None
+DEBUG    rst: :Requests.py:32 {'code': 2000, 'message': 'success', 'body': {'access_token': '4b6c8a05-996b-4793-ba41-65d1c2273ac1', 'token_type': 'bearer', 'refresh_token': 'aaac09e9-10e3-4d1c-83c7-157ccf61fd9b', 'expires_in': 86399, 'scope': 'all'}}
+DEBUG    登录：:Login.py:32 登录成功
+DEBUG    body:Requests.py:27 None
+DEBUG    rst: :Requests.py:32 {'code': 2000, 'message': 'success', 'body': {'defaultLoc': 99897826364, 'defaultIns': 1}}
+DEBUG    body:Requests.py:27 {'formJsonStr': '{"liveAddress":{"city":"216449","county":"218534","province":"191019","town":"218535","village":"218536","deep":0,"value":"218536","label":"妙山社区","code":"331023001040","detailAddress":"现住址1"},"residenceAddress":{"city":"216449","county":"218534","province":"191019","town":"218837","village":"218844","deep":0,"value":"218844","label":"下洋潘村委会","code":"331023105206","detailAddress":"户籍地址1"},"mgrOrgCode":"1","docOrgCode":"1","inputOrgCode":"1","inputOrgName":"浙江大学医学院附属第一医院","responsibleDoctorId":"10165","archivingDoctorId":"10165","archivingDate":"1984-04-16","inputDoctorId":"10165","inputDoctorName":"VV","inputDate":"1984-04-16","nation":"GB/T3304.01","gender":"GB/T2261.1.1","isHouseholderReg":"1","hasOperations":["0"],"hasTraumatisms":["0"],"hasTransfusions":["0"],"allergySource":[{"value":0,"isReserveState":true}],"exposureHistory":[{"value":0,"isReserveState":true}],"diseases":[{"value":"FH0369.01","isReserveState":true,"diagnosisTime":""}],"fatherDiseases":[{"value":"FH0369.01","isReserveState":true}],"motherDiseases":[{"value":"FH0369.01","isReserveState":true}],"childrenDiseases":[{"value":"FH0369.01","isReserveState":true}],"siblingDiseases":[{"value":"FH0369.01","isReserveState":true}],"geneticDiseases":[{"value":0,"isReserveState":true}],"disabilityDiseases":[{"value":"FH0370.01","isReserveState":true}],"lifeEnvKitchenVentList":[{"value":0}],"lifeEnvFuelTypeList":[{"value":0}],"lifeEnvWaterList":[{"value":0}],"lifeEnvWcList":[{"value":0}],"lifeEnvAnimalList":[{"value":0}],"gridId":"3310","educationLevel":"FH0388.02","aboBloodType":"CV04.50.005.01","rhBloodType":"CV04.50.020.02","maritalStatus":"GB/T2261.2.10","careerCate":"FH0386.05","hisPayFeeType":"FH0368.02","recordDetailCategory":"addNew","name":"刘秀华","birthday":"1990-03-07","idcardNumber":"532524194610183687","phone":"13692519699","workplace":"工作单位1","contactsName":"刘秀华","contactsPhone":"13692519699","idcardType":"FH0066.01","qcResult":[]} '}
+DEBUG    rst: :Requests.py:32 {'code': 2000, 'message': 'success', 'body': '374dd2a1692111ebb7ef00163e16b97a'}
+DEBUG    【接口1】请求报文body为：:SceneMiddle.py:71 {'idcardNumber': '532524194610183687'}
+DEBUG    body:Requests.py:27 {'idcardNumber': '532524194610183687'}
+DEBUG    rst: :Requests.py:32 {'code': 2000, 'message': 'success', 'body': [{'id': None, 'residenterId': '374dd2a1692111ebb7ef00163e16b97a', 'name': '刘秀华', 'idcardNumber': '532524194610183687', 'idcardType': None, 'healthDocNo': '331023001040100274', 'birthday': 636739200000, 'birthdayStr': None, 'ageText': '30岁', 'gender': 'GB/T2261.1.1', 'genderName': '男', 'phone': '13692519699', 'fixedPhone': None, 'nationName': None, 'nation': None, 'hhProvinceId': '191019', 'hhProvince': '浙江省', 'hhProvinceCode': '33', 'hhCityId': '216449', 'hhCity': '台州市', 'hhCityCode': '331000000000', 'hhCountyId': '218534', 'hhCounty': '天台县', 'hhCountyCode': '331023000000', 'hhTownId': '218837', 'hhTown': '平桥镇', 'hhTownCode': '331023105000', 'hhVillageId': '218844', 'hhVillageCode': '331023105206', 'hhVillage': '下洋潘村委会', 'hhVillageDoorNum': '户籍地址1', 'prProvinceId': '191019', 'prProvince': '浙江省', 'prProvinceCode': '33', 'prCityId': '216449', 'prCity': '台州市', 'prCityCode': '331000000000', 'prCountyId': '218534', 'prCounty': '天台县', 'prCountyCode': '331023000000', 'prTownId': '218535', 'prTown': '赤城街道', 'prTownCode': '331023001000', 'prVillageId': '218536', 'prVillageCode': '331023001040', 'prVillage': '妙山社区', 'prVillageDoorNum': '现住址1', 'nowAddrStr': '浙江省台州市天台县赤城街道妙山社区现住址1', 'systolicPressure': None, 'diastolicPressure': None, 'height': None, 'weight': None, 'bmi': None, 'waist': None, 'highRiskFactor': None, 'docOrgId': '1', 'docOrgName': '天台县人民医院(测试)', 'archivingDoctorId': '10165', 'archivingDoctorName': 'VV', 'docCreateDate': 450892800000, 'inputOrgId': '1', 'inputOrgName': '天台县人民医院(测试)', 'inputDocId': None, 'inputDoctorName': 'VV', 'inputDate': 450892800000, 'recordStatus': None, 'vestDate': None}]}
+DEBUG    【接口1】返回结果为：:SceneMiddle.py:80 {'code': 2000, 'message': 'success', 'body': [{'id': None, 'residenterId': '374dd2a1692111ebb7ef00163e16b97a', 'name': '刘秀华', 'idcardNumber': '532524194610183687', 'idcardType': None, 'healthDocNo': '331023001040100274', 'birthday': 636739200000, 'birthdayStr': None, 'ageText': '30岁', 'gender': 'GB/T2261.1.1', 'genderName': '男', 'phone': '13692519699', 'fixedPhone': None, 'nationName': None, 'nation': None, 'hhProvinceId': '191019', 'hhProvince': '浙江省', 'hhProvinceCode': '33', 'hhCityId': '216449', 'hhCity': '台州市', 'hhCityCode': '331000000000', 'hhCountyId': '218534', 'hhCounty': '天台县', 'hhCountyCode': '331023000000', 'hhTownId': '218837', 'hhTown': '平桥镇', 'hhTownCode': '331023105000', 'hhVillageId': '218844', 'hhVillageCode': '331023105206', 'hhVillage': '下洋潘村委会', 'hhVillageDoorNum': '户籍地址1', 'prProvinceId': '191019', 'prProvince': '浙江省', 'prProvinceCode': '33', 'prCityId': '216449', 'prCity': '台州市', 'prCityCode': '331000000000', 'prCountyId': '218534', 'prCounty': '天台县', 'prCountyCode': '331023000000', 'prTownId': '218535', 'prTown': '赤城街道', 'prTownCode': '331023001000', 'prVillageId': '218536', 'prVillageCode': '331023001040', 'prVillage': '妙山社区', 'prVillageDoorNum': '现住址1', 'nowAddrStr': '浙江省台州市天台县赤城街道妙山社区现住址1', 'systolicPressure': None, 'diastolicPressure': None, 'height': None, 'weight': None, 'bmi': None, 'waist': None, 'highRiskFactor': None, 'docOrgId': '1', 'docOrgName': '天台县人民医院(测试)', 'archivingDoctorId': '10165', 'archivingDoctorName': 'VV', 'docCreateDate': 450892800000, 'inputOrgId': '1', 'inputOrgName': '天台县人民医院(测试)', 'inputDocId': None, 'inputDoctorName': 'VV', 'inputDate': 450892800000, 'recordStatus': None, 'vestDate': None}]}
+DEBUG    【接口2】请求报文body为：:SceneMiddle.py:71 {
+    "id": null,
+    "residenterId": "374dd2a1692111ebb7ef00163e16b97a",
+    "name": "刘秀华",
+    "idcardNumber": "532524194610183687",
+    "idcardType": null,
+    "healthDocNo": "331023001040100274",
+    "birthday": "636739200000",
+    "birthdayStr": null,
+    "ageText": "30岁",
+    "gender": "GB/T2261.1.1",
+    "genderName": "GB/T2261.1.1Name",
+    "phone": "13692519699",
+    "fixedPhone": null,
+    "nationName": null,
+    "nation": null,
+    "hhProvinceId": "191019",
+    "hhProvince": "浙江省",
+    "hhProvinceCode": "浙江省Code",
+    "hhCityId": "216449",
+    "hhCity": "台州市",
+    "hhCityCode": "台州市Code",
+    "hhCountyId": "218534",
+    "hhCounty": "天台县",
+    "hhCountyCode": "天台县Code",
+    "hhTownId": "218837",
+    "hhTown": "平桥镇",
+    "hhTownCode": "平桥镇Code",
+    "hhVillageId": "218844",
+    "hhVillageCode": "331023105206",
+    "hhVillage": "下洋潘村委会",
+    "hhVillageDoorNum": "下洋潘村委会DoorNum",
+    "prProvinceId": "191019",
+    "prProvince": "浙江省",
+    "prProvinceCode": "浙江省Code",
+    "prCityId": "216449",
+    "prCity": "台州市",
+    "prCityCode": "台州市Code",
+    "prCountyId": "218534",
+    "prCounty": "天台县",
+    "prCountyCode": "天台县Code",
+    "prTownId": "218535",
+    "prTown": "赤城街道",
+    "prTownCode": "赤城街道Code",
+    "prVillageId": "218536",
+    "prVillageCode": "331023001040",
+    "prVillage": "妙山社区",
+    "prVillageDoorNum": "妙山社区DoorNum",
+    "nowAddrStr": "浙江省台州市天台县赤城街道妙山社区现住址1",
+    "systolicPressure": "120",
+    "diastolicPressure": "80",
+    "height": null,
+    "weight": null,
+    "bmi": "",
+    "waist": null,
+    "highRiskFactor": "99",
+    "docOrgId": "1",
+    "docOrgName": "浙江大学医学院附属第一医院",
+    "archivingDoctorId": "10165",
+    "archivingDoctorName": "VV",
+    "docCreateDate": "2021-02-07",
+    "inputOrgId": "1",
+    "inputOrgName": "浙江大学医学院附属第一医院",
+    "inputDocId": null,
+    "inputDoctorName": "VV",
+    "inputDate": "2021-02-07",
+    "recordStatus": null,
+    "dropSearchCurrent": true,
+    "prAddress": {
+        "province": "191019",
+        "city": "218534",
+        "county": "218534",
+        "town": "218535",
+        "village": "218536",
+        "detailAddress": "妙山社区DoorNum"
+    },
+    "hhAddress": {
+        "province": "191019",
+        "city": "216449",
+        "county": "218534",
+        "town": "218837",
+        "village": "218844",
+        "detailAddress": "下洋潘村委会DoorNum"
+    }
+}
+DEBUG    body:Requests.py:27 {'id': None, 'residenterId': '374dd2a1692111ebb7ef00163e16b97a', 'name': '刘秀华', 'idcardNumber': '532524194610183687', 'idcardType': None, 'healthDocNo': '331023001040100274', 'birthday': '636739200000', 'birthdayStr': None, 'ageText': '30岁', 'gender': 'GB/T2261.1.1', 'genderName': 'GB/T2261.1.1Name', 'phone': '13692519699', 'fixedPhone': None, 'nationName': None, 'nation': None, 'hhProvinceId': '191019', 'hhProvince': '浙江省', 'hhProvinceCode': '浙江省Code', 'hhCityId': '216449', 'hhCity': '台州市', 'hhCityCode': '台州市Code', 'hhCountyId': '218534', 'hhCounty': '天台县', 'hhCountyCode': '天台县Code', 'hhTownId': '218837', 'hhTown': '平桥镇', 'hhTownCode': '平桥镇Code', 'hhVillageId': '218844', 'hhVillageCode': '331023105206', 'hhVillage': '下洋潘村委会', 'hhVillageDoorNum': '下洋潘村委会DoorNum', 'prProvinceId': '191019', 'prProvince': '浙江省', 'prProvinceCode': '浙江省Code', 'prCityId': '216449', 'prCity': '台州市', 'prCityCode': '台州市Code', 'prCountyId': '218534', 'prCounty': '天台县', 'prCountyCode': '天台县Code', 'prTownId': '218535', 'prTown': '赤城街道', 'prTownCode': '赤城街道Code', 'prVillageId': '218536', 'prVillageCode': '331023001040', 'prVillage': '妙山社区', 'prVillageDoorNum': '妙山社区DoorNum', 'nowAddrStr': '浙江省台州市天台县赤城街道妙山社区现住址1', 'systolicPressure': '120', 'diastolicPressure': '80', 'height': None, 'weight': None, 'bmi': '', 'waist': None, 'highRiskFactor': '99', 'docOrgId': '1', 'docOrgName': '浙江大学医学院附属第一医院', 'archivingDoctorId': '10165', 'archivingDoctorName': 'VV', 'docCreateDate': '2021-02-07', 'inputOrgId': '1', 'inputOrgName': '浙江大学医学院附属第一医院', 'inputDocId': None, 'inputDoctorName': 'VV', 'inputDate': '2021-02-07', 'recordStatus': None, 'dropSearchCurrent': True, 'prAddress': {'province': '191019', 'city': '218534', 'county': '218534', 'town': '218535', 'village': '218536', 'detailAddress': '妙山社区DoorNum'}, 'hhAddress': {'province': '191019', 'city': '216449', 'county': '218534', 'town': '218837', 'village': '218844', 'detailAddress': '下洋潘村委会DoorNum'}}
+DEBUG    rst: :Requests.py:32 {'code': 2000, 'message': 'success', 'body': '37b94d84692111ebb7ef00163e16b97a'}
+DEBUG    【接口2】返回结果为：:SceneMiddle.py:80 {'code': 2000, 'message': 'success', 'body': '37b94d84692111ebb7ef00163e16b97a'}
+DEBUG    数据库查询结果：:SceneMiddle.py:125 [{'num': 1}]
+DEBUG    【=====expected_rst预期结果为：=====】:SceneMiddle.py:136 {"num":1}
+DEBUG    【=====数据库需比对数据：=====】:SceneMiddle.py:137 {"num": 1}

@@ -29,7 +29,7 @@ def get_excel_interface_data(file_path):
             interface['module'] = sheet.cell(row, 0).value
             interface['sub_module'] = sheet.cell(row, 1).value
             interface['case_name'] = sheet.cell(row, 2).value
-            interface['interface_type'] = sheet.cell(row, 3).value
+            interface['interface_type'] = str(int(sheet.cell(row, 3).value))
             interface['uri'] = sheet.cell(row, 4).value
             interface['send_method'] = sheet.cell(row, 5).value
             interface['body'] = json.loads(random_obj.random_data_format(sheet.cell(row, 6).value))
@@ -45,7 +45,7 @@ def get_excel_interface_data(file_path):
             interface['module'] = sheet.cell(row, 0).value
             interface['sub_module'] = sheet.cell(row, 1).value
             interface['case_name'] = sheet.cell(row, 2).value
-            interface['interface_type'] = sheet.cell(row, 3).value
+            interface['interface_type'] = str(int(sheet.cell(row, 3).value))
             interface['uri'] = sheet.cell(row, 4).value
             interface['send_method'] = sheet.cell(row, 5).value
             interface['body'] = json.loads(random_obj.random_data_format(sheet.cell(row, 6).value))

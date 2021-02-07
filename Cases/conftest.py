@@ -8,10 +8,10 @@ import pytest
 from Middle.RequestApi import request_api
 from Utils.GetConfigInfo import USER_INFO
 from Utils.RandomData import RandomData
-from DB.DbAPI import query_db,execute_sql
+from DB.DbAPI import query_db, execute_sql
+from Utils.LoggerHandler import logger
 
 
-@pytest.fixture(scope='session')
 def add_user_base_info():
     '''
     前置条件：新增个人档案
@@ -51,7 +51,6 @@ def add_user_base_info():
     return randomData.interface_case_globals
 
 
-@pytest.fixture(scope='session')
 def query_high_risk_diabetes():
     '''
     查询糖尿病高危第一个人id
@@ -61,3 +60,31 @@ def query_high_risk_diabetes():
           "residenter_id as residenterId from biz_ph_high_risk_group_diabetes_info where active = '1' limit 1;"
     rst = query_db(sql)
     return rst[0]
+
+
+@pytest.fixture()
+def case(request):
+    '''
+    测试用例前置和后置
+    :param request:
+    :return:
+    '''
+    caseData = request.param
+    if isinstance(caseData, dict):
+        setUp = caseData['setUp']
+        # 如果有前置条件，则将前置条件的返回结果存取
+        if setUp:
+            logger('前置条件').debug('【测试前置条件测试】')
+            setUp_value = globals()[setUp]()
+            request.param['setUp'] = setUp_value
+    # 如果是场景类型
+    elif isinstance(caseData, list):
+        setUp = caseData[0]['setUp']
+        # 如果有前置和后置条件，则将前置条件的返回结果存取
+        if setUp:
+            logger('前置条件').debug('【测试前置条件执行】')
+            setUp_value = globals()[setUp]()
+            request.param[0]['setUp'] = setUp_value
+    return request.param
+
+
